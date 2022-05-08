@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.red-circle {
+    background-color: red;
+}
+.blue-circle {
+    background-color: blue;
+}
+.yellow-circle {
+    background-color: yellow;
+}
+
+#divButtons {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+#divCircles {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+button {
+    float: left;
+    margin: 5px;
+}
